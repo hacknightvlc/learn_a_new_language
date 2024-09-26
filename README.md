@@ -6,6 +6,19 @@ We've got a super cool session lined up for you. It's like a wild experiment whe
 
 Don't miss out on this crazy ride! Oh, and don't forget to bring your laptop. HackNight = Hands-on hacking madness!
 
+
+## URLs
+
+### Languages form
+
+https://tinyurl.com/known-langs
+
+### Languages QR
+
+![Known languages form](qr_known_langs.png "Known languages form")
+
+## Challenges
+
 ## 1. Warming-up: Hello world!
 
 That's it. Earn your pizza slice 🍕
@@ -56,13 +69,13 @@ $ gunzip -c payments-1M.jsonl.gz | head -n 1 | jq
 
 ## 4. Volatility
 
-The _Volatility_ of a stock gives us a measure on the amount of uncertainty given the changes made over time. Normally, it is computed using the standard deviation over the logaritmic returns.
+The _Volatility_ of a stock gives us a measure on the amount of uncertainty given the changes made over time. Normally, it is computed using the standard deviation over the logarithmic returns.
 
 The daily volatility for a given period of returns `P` can be defined as:
 
 $\displaystyle \sigma _{\text{P}}=\sigma _{\text{daily}}{\sqrt{P}}$
 
-Therefore, to calculate the volatily for one month, we just have to compute the standard deviation over the returns of that month, having `P` trading days:
+Therefore, to calculate the volatility for one month, we just have to compute the standard deviation over the returns of that month, having `P` trading days:
 
 ```python
 from math import sqrt
